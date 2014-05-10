@@ -1,0 +1,26 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+@font-face {
+	font-family: 'KoruriSub';
+	src: url("../webfont/Koruri-subset_sfjp.eot?") format('eot'),
+	url("../webfont/Koruri-subset_sfjp.woff") format('woff'),
+	url("../webfont/Koruri-subset_sfjp.ttf") format('truetype');
+		
+	/*  for Chrome  */
+	src: url(../webfont/Koruri-subset_sfjp.woff) format('woff'); 
+}
+
+body {
+	font-family: KoruriSub !important;
+}
