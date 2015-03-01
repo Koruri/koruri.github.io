@@ -1,14 +1,18 @@
-@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=entypo|zocial|fontawesome);
 
 /* entypo */
 [class*="entypo-"]:before {
   font-family: 'entypo', sans-serif;
 }
 
-@import url(http://weloveiconfonts.com/api/?family=zocial);
 /* zocial */
 [class*="zocial-"]:before {
   font-family: 'zocial', sans-serif;
+}
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
 }
 
 @font-face {
