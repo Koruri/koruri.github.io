@@ -10,7 +10,10 @@ title: index
 
 ## Download
 
-- [https://github.com/Koruri/Koruri/releases/latest](https://github.com/Koruri/Koruri/releases/latest)
+- **OSDN** - [https://osdn.net/projects/koruri/releases/](https://osdn.net/projects/koruri/releases/)  
+通常はこちらをご利用ください。
+- **GitHub** - [https://github.com/Koruri/Koruri/releases/latest](https://github.com/Koruri/Koruri/releases/latest)  
+OSDNが使用できない場合などはこちらからもダウンロードすることができます。
 
 ## Webフォント (unofficial)
 
