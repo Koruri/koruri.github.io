@@ -1,56 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" data-theme="light">
 <head>
 	<meta charset="utf-8">
 	<title>Koruri - Japanese TrueType font</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Japanese TrueType font">
 	<meta name="author" content="lindwurm">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet">
-	<link href="css/koruri.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/koruri.css">
 	<link rel="icon" href="apple-touch-icon.png">
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 </head>
 
 <body>
-	<main role="main">
-		<div class="jumbotron bg-light text-center">
-			<div class="container">
-				<img src="img/koruri.svg" alt="logo" width="240px">
-				<h1 class="koruri">Koruri</h1>
-				<p class="desc"><a href="http://mplus-fonts.osdn.jp/">M+ OUTLINE FONTS</a> と <a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a> を合成した、すっきりと読みやすい日本語 TrueType フォントです。</p>
-				<p class="desc"><a class="btn btn-success btn-lg" href="https://github.com/Koruri/Koruri/releases/latest" role="button">Download (GitHub) &raquo;</a></p>
-			</div>
-		</div>
-
+	<header>
 		<div class="container">
-			<div class="row">
-				<div class="col-12">
-				<h2>Webフォント関連（非公式）</h2>
-				<p>以下で提供されるものは作者による公式なものではありません。最新版をベースに使用していない場合があり、主に漢字などの追加グリフが反映されていないことがあることに注意してください。</p>
+			<img src="img/koruri.svg" alt="logo" width="240px">
+			<h1>Koruri</h1>
+			<p>M+ と Open Sans を合成した、すっきりと読みやすい日本語 TrueType フォント</p>
+			<a href="https://github.com/Koruri/Koruri/releases/latest" role="button">GitHub からダウンロード &raquo;</a>
+		</div>
+	</header>
+
+	<main>
+		<div class="container">
+			<h2>自由なライセンス</h2>
+			<p>Koruri は、<a href="https://fonts.google.com/specimen/Open+Sans">Open Sans</a> と <a href="http://mplus-fonts.osdn.jp/">OSDN 版の M+ 1p</a> から合成された 日本語 TrueType フォントです。</p>
+			<p>英数字混じりの文章や、コンピューターソフトウェアのユーザーインターフェース上における可読性を重視して作成されており、 Open Sans が採用している <b><a href="https://licenses.opensource.jp/Apache-2.0/Apache-2.0.html">Apache License 2.0</a></b> に基づいて提供されます。</p>
+			<p>使用や再配布を自由に行うことができ、印刷物やデザインへの使用はもちろん、ソフトウェア、ゲームなどへの組み込み（フォントデータそのものを同梱しても問題ありません！）にも特別な許可は必要ありません。</p>
+			<p>Web サイトで使用するために最適化された Koruri が必要な場合は、下記をご確認ください。</p>
+
+			<h3>Webフォント関連（非公式）</h3>
+			<p>以下で提供されるものは作者による公式なものではありません。常に最新版がベースである保証はなく、主に漢字などの追加グリフが反映されていないことがあることに注意してください。</p>
+
+			<div class="grid">
+				<div>
+					<article>
+					<h4>sakura-tel/koruri</h4>
+					<p>Koruri のファイルサイズを小さくし、Web フォント用にカスタマイズされたものです。</p>
+					<p> Web フォントで一般的な WOFF 形式・ EOT 形式に対応しています。</p>
+					<a href="https://koruri.chillout.chat" role="button" class="outline">sakura-tel/koruri &raquo;</a>
+					</article>
 				</div>
-				<div class="col-md-6 col-sm-12">
-					<div class="card">
-						<div class="card-body">
-							<h3 class="card-title">Koruri Webfont Subsetter</h3>
-							<p class="card-text">必要なグリフだけを収録した版のKoruriを生成できます。予め使用する文字が決まっている、大きな変更の予定がない場面では非常に軽量なWebフォントを用意することができます。</p>
-							<a href="http://koruri.font-face.jp/" class="btn btn-primary">Koruri Webfont Subsetter &raquo;</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-sm-12">
-					<div class="card">
-						<div class="card-body">
-							<h3 class="card-title">WebKoruri</h3>
-							<p class="card-text">Koruriから、使用頻度の少ない文字を削除して軽量化したものです。woffであれば1MB未満に収まることから、少なくない文字種が使われることが予想され事前のサブセット化に不向きな場面（ブログなど）で有効です。</p>
-							<a href="https://cdn.plusminus.io/font/webkoruri/" class="btn btn-primary">WebKoruri &raquo;</a>
-						</div>
-					</div>
+				<div>
+					<article>
+					<h4>Koruri Webfont Subsetter</h4>
+					<p>必要なグリフだけを収録した版の Koruri を生成することができます。</p>
+					<p>予め使用する文字が決まっている場面では非常に軽量なフォントファイルを用意することができます。</p>
+					<a href="http://koruri.font-face.jp/" role="button" class="outline">Koruri Webfont Subsetter &raquo;</a>
+					</article>
 				</div>
 			</div>
-		</div>
 
+			<h2>再現可能な生成手順</h2>
+			<p>Koruri を生成するのに用いられている FontForge 用のスクリプトは、GitHub 上で公開されています。</p>
+			<p>誰もが Koruri を生成することも、このスクリプトを改変してお好みのフォントを合成することも可能です。</p>
+			<p><a href="https://github.com/Koruri/Koruri/releases/latest" role="button" class="contrast">GitHub: Koruri/Script &raquo;</a></p>
+		</div>
 	</main>
+
+	<hr>
+
+	<hooter>
+		<div class="container">
+			<p><small>Made by <a href="https://maud.io">hota</a> with contributors.</small></p>
+		</div>
+	</hooter>
 </body>
 </html>

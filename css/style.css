@@ -1,13 +1,36 @@
-.koruri {
-    font-size: 4.5rem;
-    font-weight: 400;
+body {
+    --font-family: Koruri;
+    --spacing: 0.5rem;
 }
 
-.desc {
-    margin-top: 1em;
-    margin-bottom: 2em;
+h1 {
+    --font-size: 3rem;
+    --typography-spacing-vertical: 1.5rem;
 }
 
-.card {
-    margin-bottom: 1.2em;
+
+h2, h3, h4 {
+    border-bottom: 1px solid hsla(210,18%,87%,1);
+    --typography-spacing-vertical: 1.25rem;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    --typography-spacing-vertical: 1.2rem;
+}
+
+header {
+    text-align: center;
+}
+
+header p {
+    --typography-spacing-vertical: 2rem;
+}
+
+article {
+    --block-spacing-vertical: 1.5rem;
+    --spacing: 1rem;
 }
