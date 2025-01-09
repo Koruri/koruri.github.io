@@ -1,4 +1,5 @@
 body {
+    --pico-font-family-sans-serif: Koruri;
     --font-family: Koruri;
     --spacing: 0.5rem;
 }
