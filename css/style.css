@@ -1,7 +1,10 @@
 body {
-    --pico-font-family-sans-serif: Koruri;
     --font-family: Koruri;
     --spacing: 0.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Koruri !important;
 }
 
 h1 {
